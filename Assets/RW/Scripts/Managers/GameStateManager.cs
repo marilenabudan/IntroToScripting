@@ -23,6 +23,7 @@ public class GameStateManager : MonoBehaviour
     void Start()
     {
         Instance = this;
+        you_win.SetActive(false);
     }
 
     // Update is called once per frame

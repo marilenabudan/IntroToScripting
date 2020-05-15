@@ -183,6 +183,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3766863228616895981, guid: 726881a9b8c21e74dbb2d4b473c6d16d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -68.96509
+      objectReference: {fileID: 0}
     - target: {fileID: 6503428148367957212, guid: 726881a9b8c21e74dbb2d4b473c6d16d,
         type: 3}
       propertyPath: m_Name
@@ -825,7 +830,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0ce38249426b4147a1f84f166325fca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  you_win: {fileID: 0}
+  you_win: {fileID: 2121740406}
   sheepSaved: 0
   sheepDropped: 0
   sheepDroppedBeforeGameOver: 3
@@ -1208,12 +1213,12 @@ GameObject:
   - component: {fileID: 2121740409}
   - component: {fileID: 2121740408}
   m_Layer: 5
-  m_Name: Text
+  m_Name: You win
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2121740407
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1252,7 +1257,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 41e2c740b33dc4737a489014a93909e1, type: 3}
+    m_Font: {fileID: 12800000, guid: b84367512ac5c4a1a8c8102ef8922ad1, type: 3}
     m_FontSize: 300
     m_FontStyle: 0
     m_BestFit: 0
